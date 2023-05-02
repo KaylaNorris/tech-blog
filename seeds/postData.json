@@ -2,16 +2,19 @@
     {
         "title": "Summer Activities",
         "body": "I can't wait for sunshine!",
+        "author":"James",
         "userId": 1
     },
     {
         "title": "Question about Heroku",
         "body": "Is Heroku a free or paid application?",
+        "author": "Kelly",
         "userId": 2
     },
     {
         "title": "Coding Challenge",
         "body": "Where can I find coding challenges?",
+        "author": "Bill",
         "userId": 3
     }
 ]
