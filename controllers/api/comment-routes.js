@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Comment } = require('../../models');
+const { Comment, User } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 // get all comments
@@ -26,13 +26,13 @@ router.get('/', withAuth, async (req, res) => {
 //post new comment
 
 router.post('/', withAuth, async (req, res) => {
-    const { user, content } = req.body;
+    const { userId, body } = req.body;
     const comment = newComment ({
-        user,
-        content
+        userId,
+        body
     });
     try {
-        const savedComment = await Comment.save();
+        const savedComment = await comment.save();
         res.status(200).json(savedComment);
     } catch (err) {
         res.status(500).json({ message: 'Error saving comment' })
