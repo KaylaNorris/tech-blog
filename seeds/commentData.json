@@ -1,0 +1,17 @@
+[
+    {
+        "body": "I can't wait!",
+        "userId": 1,
+        "postId": 1     
+    },
+    {
+        "body": "Following",
+        "userId": 1,
+        "postId": 2       
+    },
+    {
+        "body": "Can you ellaborate?",
+        "userId": 3,
+        "postId": 2 
+    }
+]

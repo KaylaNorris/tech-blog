@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Summer Activities",
+        "body": "I can't wait for sunshine!",
+        "userId": 1
+    },
+    {
+        "title": "Question about Heroku",
+        "body": "Is Heroku a free or paid application?",
+        "userId": 2
+    },
+    {
+        "title": "Coding Challenge",
+        "body": "Where can I find coding challenges?",
+        "userId": 3
+    }
+]
