@@ -8,7 +8,7 @@ class Post extends Model {
   }
 }
 
-User.init(
+Post.init(
   {
     id: {
       type: DataTypes.INTEGER,

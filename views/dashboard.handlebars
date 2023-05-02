@@ -1,0 +1,9 @@
+<h2>My Dashboard</h2>
+
+<div class="posts">
+    {{#each posts as |post|}}
+    {{> dashboardPosts post}}
+    {{/each}}
+</div>
+
+<button>New Post</button>
